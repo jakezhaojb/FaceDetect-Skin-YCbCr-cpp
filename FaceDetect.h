@@ -23,7 +23,6 @@ private:
 	int m_nColorTableLengthOut;
 
 public:
-	void CalSBount(int top, int bottom, int left, int right);
 	FaceDetect();
 	FaceDetect(CSize size, int nBitCount, LPRGBQUAD lpColorTable, unsigned char *pImgData);
 	~FaceDetect();
